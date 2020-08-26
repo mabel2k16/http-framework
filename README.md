@@ -219,3 +219,43 @@ Credit for the applications goes to
   [25]: https://github.com/senchalabs/connect
   [26]: https://github.com/Raynos/http-framework/tree/master/documents
   [27]: https://github.com/Raynos/http-works
+
+## origen
+Dia 1: Conceptos Básicos de io.js y uso de ES6
+
+1. Conceptos Básicos:
+
+- Introducción a io.js
+- Instalación y primeros pasos
+
+2. Conceptos Node/io.js:
+
+- sync vs async
+- callback pattern
+- modules
+- event emitter
+- streams
+
+3. Features ES6 en io.js:
+
+- Block Scopping
+- Collections (Map, WeakMap, Set, WeakSet)
+- Generators
+- Promises
+- New String Methods
+- Template Strings
+
+Día 2:  Construyamos un chat en tiempo real con video
+
+1. Construyamos un servidor web sin frameworks
+
+Construiremos un servidor web (backend) con servidor estático y realtime sin utilizar frameworks, en vez de esto usaremos librerías que vamos a ir conectando (siguiendo la filosofía de https://github.com/Raynos/http-framework) 
+
+2. Construyamos un cliente web con browserify
+
+Construiremos un cliente web con browserify utilizando algunos módulos de npm para capturar el video y enviarlo al backend para su procesamiento
+
+
+Día 3:  Construyamos un cliente nativo con NW.js
+
+El cliente web lo vamos a empaquetar con NW.js para distribuirlo como binario.
